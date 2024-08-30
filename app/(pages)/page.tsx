@@ -1,5 +1,6 @@
 // import Image from 'next/image';
 import Bio from './_components/Bio/Bio';
+import Footer from './_components/Footer/Footer';
 import Line from './_components/Line/Line';
 import LinkBlock, { LinkBlockProps } from './_components/Link/Link';
 
@@ -45,7 +46,7 @@ export default function Home() {
       <Line />
       <Bio />
       <Line />
-
+      <Footer />
     </main>
   );
 }
