@@ -4,7 +4,7 @@ export default function Bio() {
   return (
     <div className="flex items-center gap-10">
       <Image
-        src="/me.PNG"
+        src="/me.png"
         alt="picture of me :D"
         width={1000}
         height={1000}
