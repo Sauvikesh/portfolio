@@ -1,4 +1,5 @@
 // import Image from 'next/image';
+import Bio from './_components/Bio/Bio';
 import Line from './_components/Line/Line';
 import LinkBlock, { LinkBlockProps } from './_components/Link/Link';
 
@@ -26,7 +27,7 @@ export default function Home() {
   ];
 
   return (
-    <main className="flex flex-col items-center justify-center bg-black text-white pt-60">
+    <main className="flex flex-col items-center justify-center bg-black text-white pt-60 pr-[21%] pl-[21%]">
       <header className="flex flex-col justify-center items-center">
         <h1 className="text-[128px] font-semibold">Sauvikesh Lal</h1>
 
@@ -42,6 +43,9 @@ export default function Home() {
         </div>
       </header>
       <Line />
+      <Bio />
+      <Line />
+
     </main>
   );
 }
