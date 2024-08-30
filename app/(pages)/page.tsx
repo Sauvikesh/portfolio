@@ -1,4 +1,5 @@
 // import Image from 'next/image';
+import Line from './_components/Line/Line';
 import LinkBlock, { LinkBlockProps } from './_components/Link/Link';
 
 export default function Home() {
@@ -40,6 +41,7 @@ export default function Home() {
           ))}
         </div>
       </header>
+      <Line />
     </main>
   );
 }
