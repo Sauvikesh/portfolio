@@ -22,6 +22,7 @@ export default function Footer() {
       img: '/socials/linkedin.png',
     },
   ];
+
   return (
     <div className="flex flex-col justify-center items-center w-full mb-[150px]">
       <div className="h-[1px] w-full bg-white mb-[100px]"></div>
