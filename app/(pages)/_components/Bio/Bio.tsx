@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Bio() {
   return (
-    <div className="flex items-center gap-10">
+    <div className="flex items-center gap-10 xs:flex-col">
       <Image
         src="/sauvikesh.png"
         alt="picture of me :D"

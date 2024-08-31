@@ -26,7 +26,7 @@ export default function Footer() {
   return (
     <div className="flex flex-col justify-center items-center w-full mb-[150px]">
       <div className="h-[1px] w-full bg-white mb-[100px]"></div>
-      <div className="flex gap-4 pb-10">
+      <div className="flex gap-4 pb-10 xs:flex-wrap xs:justify-center">
         {Links.map((link, index) => (
           <LinkBlock
             text={link.text}

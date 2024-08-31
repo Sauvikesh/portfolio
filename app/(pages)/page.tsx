@@ -30,11 +30,13 @@ export default function Home() {
   ];
 
   return (
-    <main className="flex flex-col items-center justify-center bg-black text-white pt-60 pr-[21%] pl-[21%]">
+    <main className="flex flex-col items-center justify-center bg-black text-white pt-60 pr-[21%] pl-[21%] xs:pr-[27px] xs:pl-[27px]">
       <header className="flex flex-col justify-center items-center">
-        <h1 className="text-[128px] font-semibold">Sauvikesh Lal</h1>
+        <h1 className="text-[128px] font-semibold xs:text-5xl xs:pb-[84px]">
+          Sauvikesh Lal
+        </h1>
 
-        <div className="flex gap-4">
+        <div className="flex gap-4 xs:flex-wrap xs:justify-center">
           {Links.map((link, index) => (
             <LinkBlock
               text={link.text}
@@ -50,6 +52,8 @@ export default function Home() {
       <Line />
       <Technologies />
       <Experience />
+      <Line />
+
       <Footer />
     </main>
   );
