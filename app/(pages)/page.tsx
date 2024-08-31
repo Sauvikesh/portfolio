@@ -4,6 +4,7 @@ import Experience from './_components/Experience/Experience';
 import Footer from './_components/Footer/Footer';
 import Line from './_components/Line/Line';
 import LinkBlock, { LinkBlockProps } from './_components/Link/Link';
+import Technologies from './_components/Technologies/Technologies';
 
 export default function Home() {
   const Links: LinkBlockProps[] = [
@@ -47,6 +48,7 @@ export default function Home() {
       <Line />
       <Bio />
       <Line />
+      <Technologies />
       <Experience />
       <Footer />
     </main>
