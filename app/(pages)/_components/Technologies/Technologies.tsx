@@ -1,20 +1,21 @@
-import { RiNextjsFill } from 'react-icons/ri';
+import TechLogo from './TechLogo';
 
 export default function Technologies() {
   return (
-    <div className="flex gap-6 flex-wrap justify-center pb-28">
-      <RiNextjsFill size={102} />
-      <RiNextjsFill size={102} />
-      <RiNextjsFill size={102} />
-      <RiNextjsFill size={102} />
-      <RiNextjsFill size={102} />
-      <RiNextjsFill size={102} />
+    <div className="relative flex gap-6 flex-wrap justify-center pb-28 space-x-4">
+      <TechLogo />
+      <TechLogo />
+      <TechLogo />
+      <TechLogo />
+      <TechLogo />
+      <TechLogo />
 
-      <RiNextjsFill size={102} />
-      <RiNextjsFill size={102} />
-      <RiNextjsFill size={102} />
-      <RiNextjsFill size={102} />
-      <RiNextjsFill size={102} />
+      <TechLogo />
+      <TechLogo />
+      <TechLogo />
+      <TechLogo />
+      <TechLogo />
+
     </div>
   );
 }
