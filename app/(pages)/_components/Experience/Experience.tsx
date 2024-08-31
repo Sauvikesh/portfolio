@@ -21,7 +21,7 @@ export default function Experience() {
 
   return (
     <div className="flex flex-col">
-      <h1 className="pb-10 text-2xl">Experience</h1>
+      <h1 className="text-2xl">Experience</h1>
       {blockContent.map((content, index) => (
         <ExpBlock {...content} key={index} />
       ))}

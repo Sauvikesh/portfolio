@@ -72,7 +72,7 @@ export default function Technologies() {
   ];
 
   return (
-    <div className="relative flex gap-6 xs:gap-5 flex-wrap justify-center pb-28 space-x-4 bg-black h-[400px] max-w-[]">
+    <div className="relative flex gap-6 xs:gap-5 flex-wrap justify-center pb-28 space-x-4 bg-black h-[400px] xs:mb-20">
       {techLogos.map((logo, index) => (
         <TechLogo {...logo} key={index} />
       ))}
