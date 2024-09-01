@@ -4,7 +4,7 @@ import Link from 'next/link';
 export default function Projects() {
   return (
     <div className="flex flex-col w-full pb-[275px] xs:pb-[84px]">
-      <h1 className="pb-20 text-2xl">Selected Work</h1>
+      <h1 className="pb-10 text-2xl">Selected Work</h1>
 
       <div className="grid grid-cols-3 grid-rows-2 gap-4 w-full h-full xs:flex xs:flex-col">
         <Link
