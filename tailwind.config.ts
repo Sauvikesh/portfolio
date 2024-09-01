@@ -16,6 +16,19 @@ const config: Config = {
       screens: {
         xs: { max: '425px' },
       },
+      keyframes: {
+        lineGrow: {
+          '0%': { 
+            height: '0px',
+          },
+          '100%': { 
+            height: '240px',
+          },
+        },
+      },
+      animation: {
+        grow: 'lineGrow 2s ease-in-out infinite'
+      },
     },
   },
   plugins: [],
