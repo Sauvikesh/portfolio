@@ -18,16 +18,21 @@ const config: Config = {
       },
       keyframes: {
         lineGrow: {
-          '0%': { 
+          '0%': {
             height: '0px',
           },
-          '100%': { 
+          '50%': {
             height: '240px',
+            transform: 'translateY(0px)',
+          },
+          '100%': {
+            height: '0px',
+            transform: 'translateY(240px)',
           },
         },
       },
       animation: {
-        grow: 'lineGrow 2s ease-in-out infinite'
+        grow: 'lineGrow 2s ease-in-out infinite',
       },
     },
   },
