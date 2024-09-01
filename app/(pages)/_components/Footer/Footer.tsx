@@ -4,21 +4,22 @@ export default function Footer() {
   const Links: LinkBlockProps[] = [
     {
       text: 'Resume',
-      url: 'https://www.linkedin.com/feed/',
+      url: 'https://drive.google.com/file/d/1Hprbk0mSUvdqDy1_2tmP7Rtr9s6Gks0i/view?usp=drive_link',
       img: '/socials/resume.svg',
     },
     {
       text: 'GitHub',
-      url: 'https://www.linkedin.com/feed/',
+      url: 'https://github.com/Sauvikesh',
       img: '/socials/github.png',
     },
     {
       text: 'Email',
-      url: 'https://www.linkedin.com/feed/',
+      url: 'sauviklal@gmail.com',
       img: '/socials/email.svg',
+      email: true,
     },
     {
-      url: 'https://www.linkedin.com/feed/',
+      url: 'https://www.linkedin.com/in/sauvikesh-lal/',
       img: '/socials/linkedin.png',
     },
   ];
@@ -33,6 +34,7 @@ export default function Footer() {
             url={link.url}
             key={index}
             img={link.img}
+            email={link.email}
           />
         ))}
       </div>
