@@ -15,7 +15,7 @@ export default function Bio() {
         I'm a software engineer with experience in Full-stack Web development
         and iOS mobile app development. I love collaborating with others,
         writing clean code, and building stable products! I'm always trying to
-        learn new technologies or improve what I am already proficient at.
+        learn new technologies and improve what I am already proficient at.
       </p>
     </div>
   );

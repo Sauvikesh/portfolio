@@ -25,7 +25,7 @@ export default function Technologies() {
     },
     {
       icon: (
-        <SiTypescript className="w-[102px] h-[102px] xs:h-[76px] xs:w-[76px] bg-white" />
+        <SiTypescript className="w-[102px] h-[102px] xs:h-[76px] xs:w-[76px]" />
       ),
       text: 'Typescript',
     },
