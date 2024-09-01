@@ -32,9 +32,9 @@ export default function Home() {
   ];
 
   return (
-    <main className="flex flex-col items-center justify-center bg-black text-white pt-60 pr-[21%] pl-[21%] xs:pr-[27px] xs:pl-[27px]">
+    <main className="flex flex-col items-center justify-center bg-black text-white pt-60 pr-[20%] pl-[20%] xs:pr-[27px] xs:pl-[27px]">
       <header className="flex flex-col justify-center items-center">
-        <h1 className="text-[128px] font-semibold xs:text-5xl xs:pb-[84px]">
+        <h1 className="text-[128px] font-semibold xs:text-5xl xs:pb-[84px] text-center">
           Sauvikesh Lal
         </h1>
 
