@@ -34,7 +34,7 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center bg-black text-white pt-60 pr-[20%] pl-[20%] xs:pr-[27px] xs:pl-[27px]">
       <header className="flex flex-col justify-center items-center">
-        <h1 className="text-[128px] font-semibold xs:text-5xl xs:pb-[84px] text-center">
+        <h1 className="text-[128px] font-semibold xs:text-5xl xs:pb-[84px] text-center text-nowrap">
           Sauvikesh Lal
         </h1>
 
