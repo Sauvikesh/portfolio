@@ -6,6 +6,7 @@ import Line from './_components/Line/Line';
 import LinkBlock, { LinkBlockProps } from './_components/Link/Link';
 import Projects from './_components/Projects/Projects';
 import Technologies from './_components/Technologies/Technologies';
+import { NameTyping } from './_components/NameTyping';
 
 export default function Home() {
   const Links: LinkBlockProps[] = [
@@ -32,11 +33,9 @@ export default function Home() {
   ];
 
   return (
-    <main className="flex flex-col items-center justify-center bg-black text-white pt-60 pr-[20%] pl-[20%] xs:pr-[27px] xs:pl-[27px]">
-      <header className="flex flex-col justify-center items-center">
-        <h1 className="text-[128px] font-semibold xs:text-5xl xs:pb-[84px] text-center text-nowrap">
-          Sauvikesh Lal
-        </h1>
+    <main className="flex flex-col items-center  bg-black text-white pt-60 pr-[20%] pl-[20%] xs:pr-[27px] xs:pl-[27px] w-full">
+      <header className="flex flex-col justify-center items-center w-full">
+        <NameTyping />
 
         <div className="flex gap-4 xs:flex-wrap xs:justify-center">
           {Links.map((link, index) => (
