@@ -1,3 +1,4 @@
+import { RevealWrapper } from '../Reveal/RevealWrapper';
 import ExpBlock, { ExpBlockProps } from './ExpBlock';
 
 export default function Experience() {
@@ -33,7 +34,9 @@ export default function Experience() {
     <div className="flex flex-col">
       <h1 className="text-2xl pb-4">Experience</h1>
       {blockContent.map((content, index) => (
-        <ExpBlock {...content} key={index} />
+        <RevealWrapper key={index}>
+          <ExpBlock {...content} />
+        </RevealWrapper>
       ))}
     </div>
   );

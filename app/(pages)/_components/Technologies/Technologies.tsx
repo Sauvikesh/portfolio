@@ -9,6 +9,7 @@ import {
 } from 'react-icons/fa';
 import { SiTypescript, SiSass, SiMongodb } from 'react-icons/si';
 import TechLogo, { TechLogoProps } from './TechLogo';
+import { RevealWrapper } from '../Reveal/RevealWrapper';
 
 // TODO: CAN I CHANE THE COLORS OF THE ICONS TO BE WHITE?@?!?!?!?!? PLEASE
 export default function Technologies() {
@@ -72,10 +73,12 @@ export default function Technologies() {
   ];
 
   return (
-    <div className="relative flex gap-6 xs:gap-5 flex-wrap justify-center pb-28 space-x-4 bg-black h-[400px] xs:mb-20">
-      {techLogos.map((logo, index) => (
-        <TechLogo {...logo} key={index} />
-      ))}
-    </div>
+    <RevealWrapper>
+      <div className="relative flex gap-6 xs:gap-5 flex-wrap justify-center pb-28 space-x-4 bg-black h-[400px] xs:mb-20">
+        {techLogos.map((logo, index) => (
+          <TechLogo {...logo} key={index} />
+        ))}
+      </div>
+    </RevealWrapper>
   );
 }

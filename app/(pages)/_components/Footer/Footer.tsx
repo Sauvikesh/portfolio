@@ -1,4 +1,5 @@
 import LinkBlock, { LinkBlockProps } from '../Link/Link';
+import { RevealWrapper } from '../Reveal/RevealWrapper';
 
 export default function Footer() {
   const Links: LinkBlockProps[] = [
@@ -25,20 +26,22 @@ export default function Footer() {
   ];
 
   return (
-    <div className="flex flex-col justify-center items-center w-full mb-[150px]">
-      <div className="h-[1px] w-full bg-white mb-[100px]"></div>
-      <div className="flex gap-4 pb-10 xs:flex-wrap xs:justify-center">
-        {Links.map((link, index) => (
-          <LinkBlock
-            text={link.text}
-            url={link.url}
-            key={index}
-            img={link.img}
-            email={link.email}
-          />
-        ))}
+    <RevealWrapper>
+      <div className="flex flex-col justify-end w-full mb-[150px]">
+        <div className="h-[1px] w-full bg-white mb-[100px]"></div>
+        <div className="flex gap-4 pb-10 xs:flex-wrap justify-center">
+          {Links.map((link, index) => (
+            <LinkBlock
+              text={link.text}
+              url={link.url}
+              key={index}
+              img={link.img}
+              email={link.email}
+            />
+          ))}
+        </div>
+        <p className="text-center">Made with ☕️ in Redwood City, CA</p>
       </div>
-      <p>Made with ☕️ in Redwood City, CA</p>
-    </div>
+    </RevealWrapper>
   );
 }
