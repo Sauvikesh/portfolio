@@ -1,5 +1,5 @@
-import Image from "next/image";
-import { RevealWrapper } from "../Reveal/RevealWrapper";
+import Image from 'next/image';
+import { RevealWrapper } from '../Reveal/RevealWrapper';
 
 export default function Bio() {
   return (

@@ -1,6 +1,5 @@
-import Link from "next/link";
-import { FaExternalLinkSquareAlt } from "react-icons/fa";
-import { HiExternalLink } from "react-icons/hi";
+import Link from 'next/link';
+import { HiExternalLink } from 'react-icons/hi';
 
 export type ExpBlockProps = {
   time: string;
