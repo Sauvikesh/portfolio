@@ -1,5 +1,5 @@
-import Link from 'next/link';
-import Image from 'next/image';
+import Link from "next/link";
+import Image from "next/image";
 
 export type LinkBlockProps = {
   text?: string;
@@ -28,7 +28,7 @@ export default function LinkBlock(props: LinkBlockProps) {
     );
   } else {
     return (
-      <Link href={url}>
+      <Link href={url} target="_blank" rel="noopener noreferrer">
         <div className="flex min-h-11 items-center justify-center bg-[#404040] text-white pt-[10px] pb-[10px] pl-[16px] pr-[16px] rounded-[100px] gap-2">
           <Image
             src={img}

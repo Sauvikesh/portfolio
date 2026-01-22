@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import { RevealWrapper } from '../Reveal/RevealWrapper';
+import Image from "next/image";
+import { RevealWrapper } from "../Reveal/RevealWrapper";
 
 export default function Bio() {
   return (
@@ -16,8 +16,7 @@ export default function Bio() {
           Hello! 👋🏽 <br></br> <br></br>
           I'm a software engineer with experience in Full-stack Web development
           and iOS mobile app development. I love collaborating with others,
-          writing clean code, and building stable products! I'm always trying to
-          learn new technologies and improve what I am already proficient at.
+          writing clean code, and learning new skills!
         </p>
       </div>
     </RevealWrapper>
